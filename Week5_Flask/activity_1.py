@@ -38,7 +38,7 @@ if __name__ == '__main__':
     new_date = new_date.fillna(0)
     df['Date of Publication'] = new_date
 
-    # replace spaces in the name of columns
+    # replace spaces in the name of columns    
     df.columns = [c.replace(' ', '_') for c in df.columns]
 
     # set the index column; this will help us to find books with their ids
