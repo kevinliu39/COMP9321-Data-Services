@@ -26,7 +26,7 @@ if __name__ == '__main__':
                        'Issuance type',
                        'Shelfmarks'
                        ]
-    csv_file = "Books.csv"
+    csv_file = "/home/kevin/Documents/9321/COMP9321-Data-Services/Week5_Flask/Books.csv"
     df = pd.read_csv(csv_file)
 
     # drop unnecessary columns
